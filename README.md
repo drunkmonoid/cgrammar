@@ -38,3 +38,4 @@ additions (glibc 2.43), and `bash`.
 | # | Chapter | Status |
 |---|---|---|
 | 01 | [Getting started](01-getting-started/) | ✅ |
+| 02 | [Translation phases and lexical elements](02-translation-and-lexical/) | ✅ |

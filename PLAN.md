@@ -60,7 +60,7 @@ written, and `INDEX.md` is regenerated.
 | # | Status | Directory | Topic |
 |---|---|---|---|
 | 1 | [x] | `01-getting-started/` | Toolchain, the compile and link steps, program anatomy, both forms of `main`, exit status, hosted and freestanding, a first `printf` |
-| 2 | [ ] | `02-translation-and-lexical/` | The eight translation phases, character sets, tokens, keywords, identifiers and reserved names, comments, line splicing, digraphs, the removal of trigraphs |
+| 2 | [x] | `02-translation-and-lexical/` | The eight translation phases, character sets, tokens, keywords, identifiers and reserved names, comments, line splicing, digraphs, the removal of trigraphs |
 | 3 | [ ] | `03-constants-and-literals/` | Integer constants (decimal, octal, hex, binary, digit separators, suffixes), floating constants and hex floats, character constants, escape sequences, string literals and prefixes, `true`, `false`, `nullptr` |
 | 4 | [ ] | `04-integer-types/` | `char` and its signedness, the standard integer types, `bool`, `<limits.h>` and the `_WIDTH` macros, `<stdint.h>`, `size_t`, `ptrdiff_t`, `_BitInt(N)`, two's complement, unsigned wraparound, signed overflow |
 | 5 | [ ] | `05-floating-types/` | `float`, `double`, `long double`, `<float.h>`, IEC 60559, infinities and NaN, evaluation method, complex types, decimal floating types |
