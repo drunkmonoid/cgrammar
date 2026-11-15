@@ -1,0 +1,24 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    # Ubuntu 26.04 ships gcc 15, clang 21 and glibc 2.43, which between them
+    # cover the C23 library additions the examples use.
+    container: ubuntu:26.04
+    strategy:
+      fail-fast: false
+      matrix:
+        cc: [gcc, clang]
+    env:
+      CC: ${{ matrix.cc }}
+    steps:
+      - run: apt-get update && apt-get install -y --no-install-recommends gcc clang libc6-dev make ca-certificates git
+      - uses: actions/checkout@v4
+      - run: scripts/check_all.sh
+      - run: scripts/check_outputs.sh
+      - run: SAN=1 scripts/check_all.sh
