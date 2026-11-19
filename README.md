@@ -43,3 +43,4 @@ additions (glibc 2.43), and `bash`.
 | 04 | [Integer types](04-integer-types/) | ✅ |
 | 05 | [Floating types](05-floating-types/) | ✅ |
 | 06 | [Declarations](06-declarations/) | ✅ |
+| 07 | [Scope, linkage, and lifetime](07-scope-linkage-lifetime/) | ✅ |

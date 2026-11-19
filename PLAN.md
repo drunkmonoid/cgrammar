@@ -75,7 +75,7 @@ workflow that runs the full check under gcc and clang.
 | # | Status | Directory | Topic |
 |---|---|---|---|
 | 6 | [x] | `06-declarations/` | Specifiers and declarators, how to read a declaration, `typedef`, initialisation including `{}`, `auto` inference, `typeof` and `typeof_unqual`, `constexpr`, `static_assert` |
-| 7 | [ ] | `07-scope-linkage-lifetime/` | The four scopes, name spaces, linkage, storage duration, the storage-class specifiers, tentative definitions, object lifetime |
+| 7 | [x] | `07-scope-linkage-lifetime/` | The four scopes, name spaces, linkage, storage duration, the storage-class specifiers, tentative definitions, object lifetime |
 | 8 | [ ] | `08-qualifiers-and-alignment/` | `const`, `volatile`, `restrict`, `_Atomic` as a qualifier, qualified pointers at every level, `alignas`, `alignof`, `max_align_t` |
 | 9 | [ ] | `09-conversions/` | Integer promotions, conversion rank, usual arithmetic conversions, signed against unsigned comparison, real to integer and back, casts, lvalue conversion, array and function decay, conversion to `bool` |
 | 10 | [ ] | `10-expressions/` | Lvalues, every operator, the precedence table, division and remainder, shifts, bitwise operators, short-circuit, the conditional and comma operators, `sizeof`, constant expressions |
