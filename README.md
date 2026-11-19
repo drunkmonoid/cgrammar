@@ -39,3 +39,4 @@ additions (glibc 2.43), and `bash`.
 |---|---|---|
 | 01 | [Getting started](01-getting-started/) | ✅ |
 | 02 | [Translation phases and lexical elements](02-translation-and-lexical/) | ✅ |
+| 03 | [Constants and literals](03-constants-and-literals/) | ✅ |
