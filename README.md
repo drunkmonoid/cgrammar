@@ -45,3 +45,4 @@ additions (glibc 2.43), and `bash`.
 | 06 | [Declarations](06-declarations/) | ✅ |
 | 07 | [Scope, linkage, and lifetime](07-scope-linkage-lifetime/) | ✅ |
 | 08 | [Qualifiers and alignment](08-qualifiers-and-alignment/) | ✅ |
+| 09 | [Conversions](09-conversions/) | ✅ |

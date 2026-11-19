@@ -77,7 +77,7 @@ workflow that runs the full check under gcc and clang.
 | 6 | [x] | `06-declarations/` | Specifiers and declarators, how to read a declaration, `typedef`, initialisation including `{}`, `auto` inference, `typeof` and `typeof_unqual`, `constexpr`, `static_assert` |
 | 7 | [x] | `07-scope-linkage-lifetime/` | The four scopes, name spaces, linkage, storage duration, the storage-class specifiers, tentative definitions, object lifetime |
 | 8 | [x] | `08-qualifiers-and-alignment/` | `const`, `volatile`, `restrict`, `_Atomic` as a qualifier, qualified pointers at every level, `alignas`, `alignof`, `max_align_t` |
-| 9 | [ ] | `09-conversions/` | Integer promotions, conversion rank, usual arithmetic conversions, signed against unsigned comparison, real to integer and back, casts, lvalue conversion, array and function decay, conversion to `bool` |
+| 9 | [x] | `09-conversions/` | Integer promotions, conversion rank, usual arithmetic conversions, signed against unsigned comparison, real to integer and back, casts, lvalue conversion, array and function decay, conversion to `bool` |
 | 10 | [ ] | `10-expressions/` | Lvalues, every operator, the precedence table, division and remainder, shifts, bitwise operators, short-circuit, the conditional and comma operators, `sizeof`, constant expressions |
 | 11 | [ ] | `11-evaluation-order/` | Sequencing, full expressions, unsequenced side effects, argument evaluation order, what `&&`, `\|\|`, `?:` and `,` guarantee, and what nothing else does |
 | 12 | [ ] | `12-statements/` | Compound and null statements, `if`, `switch` and fallthrough, `while`, `do`, `for`, `break`, `continue`, `goto` and labels (including the C23 placement rules), `return` |
