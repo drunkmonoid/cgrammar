@@ -44,3 +44,4 @@ additions (glibc 2.43), and `bash`.
 | 05 | [Floating types](05-floating-types/) | ✅ |
 | 06 | [Declarations](06-declarations/) | ✅ |
 | 07 | [Scope, linkage, and lifetime](07-scope-linkage-lifetime/) | ✅ |
+| 08 | [Qualifiers and alignment](08-qualifiers-and-alignment/) | ✅ |
